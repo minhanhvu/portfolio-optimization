@@ -1,5 +1,20 @@
 # 🧬Portfolio Optimization
 
+### 🪶Context
+Imagine after spending years pursuing 2 Economics degrees, you finally come to a point of "This is it! Enough preaching, I am ready to put my life at risk". Armed with the modest savings the internship in Berlin, you open a micro business. Now you find yourself in a pickle, trying to figure out where to wisely allocate your hard-earned money. You reside in a sunny beach city, so selling icecream seems tempting. But like every fresh broke graduate, you worry about your loss of income on the rainy days, so why not add umbrella stocks for extra security? But how much should you invest in icecream as opposed to umbrellas so that the return can at least afford your rent and some extra coffee for your dates. And if you are confident in your business discernment 
+
+Portfolio optimization in financial investment is process that answer similar questions as above, how to best allocate your assets given a set of constraints (
+
+
+While the focus of portfolio optimization is to find the best allocation given a set of constraints, what may be considered the best portfolio can go beyond traditional risk-return tradeoffs. Quantitative researchers and portfolio managers might also want to add diversification techniques, perform an optimization that minimizes tracking error, or find a portfolio that equalizes the risk contribution of the assets in the portfolio.
+### Process
+
+
+###
+
+
+### Key learnings
+
 ### 💡Findings
 __1. Time series analysis__
 >The rates of return of XVZ were negatively corelated to EXX5.DE and IUS3.DE and the negativity were three times intensified during the pandemic period.
