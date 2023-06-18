@@ -74,6 +74,14 @@ __4. The tangent portfolio__
 Incorporating risk-free asset in the investment, the tangent portfolio is a portfolio that maximizes the excess return per risk unit, which is also referred to as the Sharpe ratio
 The tangent portfolio is identified by using the yield of US 3-month T-bill as risk-free rate 0.05%, comprising of 0% EXX5.DE, 60% IUS3.DE and 40% XVZ, with an expected return of 15.4% and 20.2% volatility
 
-
 ### 💡Key learnings
+
+- **Statistics**: Gaussian distribution, correlations, stationary property testing
+- **Modeling**: ARIMA predictive model for time series data
+- **Optimization**: Mean-variance technique using Monte-Carlo simulation
+  
+Programing language: Python
+- **Data visualization** with `matplotlib`,`seaborn`
+- **Data cleaning** and analysis with `pandas`,`numpy`, 
+- **Modelling** with `scipy`
 
