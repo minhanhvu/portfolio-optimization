@@ -63,7 +63,17 @@ __3. The minimum-variance portfolio__
 <img src="https://github.com/minhanhvu/portfolio-optimization/assets/87383756/eddcd647-28bc-4305-bf5c-7794cff4a5a1" width=80% height=80%>
 </p>
 
-The efficient frontier is the set of optimal portfolios that offer the highest expected return for a defined level of risk or the lowest risk for a given level of expected return
+The efficient frontier is the set of optimal portfolios that offer the highest expected return for a defined level of risk or the lowest risk for a given level of expected return. The minimum variance portfolio comprises 60.3% EXX5.DE, 11.5% IUS3.DE, and 28.3% XVZ, with an expected return of 11.2% and 17.7% volatility
+
+__4. The tangent portfolio__
+
+<p align="center">
+<img src="https://github.com/minhanhvu/portfolio-optimization/assets/87383756/08a972e0-ef1a-477c-bb73-1341164826d5" width=80% height=80%>
+</p>
+
+Incorporating risk-free asset in the investment, the tangent portfolio is a portfolio that maximizes the excess return per risk unit, which is also referred to as the Sharpe ratio
+The tangent portfolio is identified by using the yield of US 3-month T-bill as risk-free rate 0.05%, comprising of 0% EXX5.DE, 60% IUS3.DE and 40% XVZ, with an expected return of 15.4% and 20.2% volatility
+
 
 ### 💡Key learnings
 
