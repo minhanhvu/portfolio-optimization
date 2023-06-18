@@ -40,7 +40,7 @@ __2. Time Series Analysis__
 __3. Portfolio Optimization__ 
 - Caculate portfolio average return and volatility
 - Plot efficient frontier using Monte-carlo simulation
-    - Identify minimum variance portfolio
+    - Identify minimum variance portfolio using optimization function
     - Identify tangent portfolio by maximizing Sharpe Ratio
 > Library: `scipy.optimize`, `scipy.interpolate`
 ### 👻 Findings
@@ -75,6 +75,11 @@ Incorporating risk-free asset in the investment, the tangent portfolio is a port
 The tangent portfolio is identified by using the yield of US 3-month T-bill as risk-free rate 0.05%, comprising of 0% EXX5.DE, 60% IUS3.DE and 40% XVZ, with an expected return of 15.4% and 20.2% volatility
 
 ### 💡Key learnings
+This project is probably one of the 
+Monte Carlo simulation is a technique to understand the impact of risk and uncertainty that can give critical insights to business forecast activities. Take our icecream "start-up" as an example, we can answer the likelihood of earning more than 200k of revenue in May, given we have access to historical data of rainy days
+
+
+For the case of our micro business, given we have historical data of the rainy day distribution we can can answer essential question for business forecast for business, such as What is the likelihood of earning more than 200k of revenue in May? so that business owener can prepare the appropriate inventory of each product. Code reference to the book "Python for Finance" by Yves Hilpisch
 
 - **Statistics**: Gaussian distribution, correlations, stationary property testing
 - **Modeling**: ARIMA predictive model for time series data
@@ -85,3 +90,6 @@ Programing language: Python
 - **Data cleaning** and analysis with `pandas`,`numpy`, 
 - **Modelling** with `scipy`
 
+### Reference & Appreciation
+Hilpisch, Yves. (2018): Python for Finance, 2nd ed., O'Reilly Media
+Big thanks to my friend Ilham Salahov for giving me feedback on this project 💗
