@@ -44,7 +44,26 @@ __3. Portfolio Optimization__
     - Identify tangent portfolio by maximizing Sharpe Ratio
 > Library: `scipy.optimize`, `scipy.interpolate`
 ### 👻 Findings
+__1. The rates of return of XVZ were negatively correlated to that of EXX5.DE and IUS3.DE__
 
+<p align="center">
+<img src="https://github.com/minhanhvu/portfolio-optimization/assets/87383756/121ed7bd-8a74-4d8b-bdb7-a9cbc4d28a5a" width=80% height=80%>
+</p>
+
+This is well-explained by the opposite reactions to market uncertainty of the underlying volatility index and stock index. Amid the world economic shutdown, the CBOE Volatility Index rose sharply in March 2020, reflecting the burgeoning demand for options to hedge risk, as opposed to the fall of Down Joins and S&P index, manifested investors’ pessimistic view in future economy.
+
+__2. The efficient market hypothesis did not hold for the examined period__
+
+The efficient market hypothesis (B. Malkiel, 2003) states that in a competitive market, stock prices follow a random walk. In other words, the price changes in one period will be independent of changes in the next. Autocorrelations of returns at all lags are zero.
+However, the coefficients of the first lagged price-change (∆_(t-1)) on current price change (∆_t) were found significant at 95% for all three assets, after netting out the effect of other lagged changes and past residuals. Hence, the null hypothesis of zero-correlation between the current price and past prices is rejected. Therefore, we conclude that the efficient market hypothesis did not hold for the examined period. _Test details can be checked at the ARIMA model session in the Jupyter file_
+
+__3. The minimum-variance portfolio__
+
+<p align="center">
+<img src="https://github.com/minhanhvu/portfolio-optimization/assets/87383756/eddcd647-28bc-4305-bf5c-7794cff4a5a1" width=80% height=80%>
+</p>
+
+The efficient frontier is the set of optimal portfolios that offer the highest expected return for a defined level of risk or the lowest risk for a given level of expected return
 
 ### 💡Key learnings
 
