@@ -38,7 +38,7 @@ __2. Time Series Analysis__
 
 
 __3. Portfolio Optimization__ 
-- Caculate portfolio average return and volatility
+- Calculate portfolio average return and volatility
 - Plot efficient frontier using Monte-carlo simulation
     - Identify minimum variance portfolio using optimization function
     - Identify tangent portfolio by maximizing Sharpe Ratio
@@ -74,12 +74,18 @@ __4. The tangent portfolio__
 Incorporating risk-free asset in the investment, the tangent portfolio is a portfolio that maximizes the excess return per risk unit, which is also referred to as the Sharpe ratio
 The tangent portfolio is identified by using the yield of US 3-month T-bill as risk-free rate 0.05%, comprising of 0% EXX5.DE, 60% IUS3.DE and 40% XVZ, with an expected return of 15.4% and 20.2% volatility
 
+**Bits of discussion**
+The Mean-variance portfolio theory implies fixed and predictable returns and volatility of element assets. It also assumes a stable correlation between assets return, and also the normal distribution of return rates. In this case, I found the violations of these assumptions in our assets. 
+
+1. Rates of returns are not normally distributed 
+2. Correlation between asset returns can vary through time 
+3. Average return and volatility of elements assets are not constant over time
+
+Hence, it's recommended to find an alternative approach that does not require a specific distribution function (Roy's Safety-First Criterion)
+
 ### 💡Key learnings
-This project is probably one of the 
-Monte Carlo simulation is a technique to understand the impact of risk and uncertainty that can give critical insights to business forecast activities. Take our icecream "start-up" as an example, we can answer the likelihood of earning more than 200k of revenue in May, given we have access to historical data of rainy days
-
-
-For the case of our micro business, given we have historical data of the rainy day distribution we can can answer essential question for business forecast for business, such as What is the likelihood of earning more than 200k of revenue in May? so that business owener can prepare the appropriate inventory of each product. Code reference to the book "Python for Finance" by Yves Hilpisch
+This project is one of the most challenging projects that I have done, concerning the tremendous time to understand Portfolio Theory and learning the optimization tools with Python's `scipy` library. 
+However, I found that the concept of diversification and Monte-Carlo methods are incredibly useful in assessing the impact of risk and uncertainty on business outcomes. Diversification brings to our attention the impact of product sales correlation on our revenue when we were to a new product to our business. Meanwhile, Monte-Carlo methods is a great tool to understand possible revenue outcomes given there are random factors in our model. 
 
 - **Statistics**: Gaussian distribution, correlations, stationary property testing
 - **Modeling**: ARIMA predictive model for time series data
@@ -91,5 +97,5 @@ Programing language: Python
 - **Modelling** with `scipy`
 
 ### Reference & Appreciation
-Hilpisch, Yves. (2018): Python for Finance, 2nd ed., O'Reilly Media
-Big thanks to my friend Ilham Salahov for giving me feedback on this project 💗
+* Hilpisch, Yves. (2018): Python for Finance, 2nd ed., O'Reilly Media
+* Big thanks to my friend Ilham Salahov for giving me feedback on this project 💗
