@@ -84,8 +84,7 @@ The Mean-variance portfolio theory implies fixed and predictable returns and vol
 Hence, it's recommended to find an alternative approach that does not require a specific distribution function (Roy's Safety-First Criterion)
 
 ### 💡Key learnings
-This project is one of the most challenging projects that I have done, concerning the tremendous time to understand Portfolio Theory and learning the optimization tools with Python's `scipy` library. 
-However, I found that the concept of diversification and Monte-Carlo methods are incredibly useful in business forecast activities. Diversification brings to our attention the impact of product sales correlation on our revenue when we were to a new product to our business. Meanwhile, Monte-Carlo methods is a great tool to understand possible revenue outcomes given there are random factors in our model. 
+I found that the concept of diversification and Monte-Carlo methods are incredibly useful in business forecast activities. Diversification brings to our attention the impact of product sales correlation on our revenue when we were to a new product to our business. Meanwhile, Monte-Carlo methods is a great tool to understand possible revenue outcomes given there are random factors in our model. 
 
 
 - **Statistics**: Gaussian distribution, correlations, stationary property testing
