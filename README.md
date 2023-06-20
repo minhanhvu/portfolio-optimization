@@ -86,7 +86,7 @@ Hence, it's recommended to find an alternative approach that does not require a 
 ### 💡Key learnings
 I found that the concept of diversification and Monte-Carlo methods are incredibly useful in business forecast activities. Take the ice cream business above as an example. Diversification brings to our attention the impact of product sales correlation on our revenue when we were to add a new product to our menu. Meanwhile, Monte-Carlo simulation is a great technique to understand possible outcomes given there are random factors in our model. 
 
-This is undoubtedly one of the most challenging projects that I have done, concerning the tremendous time to grasp the idea of Portfolio Theory and learn optimization tools in Python's `scipy` library, but the thought of using this knowledge to make heaps of money in the stock market one day gave me some motivation to follow through with it.
+This is undoubtedly one of the most challenging projects that I have done, concerning the tremendous time to grasp the idea of Portfolio Theory and learn optimization tools in Python's `scipy` library, but thank God, I made it.
 
 
 - **Statistics**: Gaussian distribution, correlations, stationary property testing
