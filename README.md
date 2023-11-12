@@ -2,6 +2,7 @@
 
 ### 🍧 Context
 Portfolio optimization is the process of selecting the portfolio that generates the highest possible return given a specific risk level.
+
 <p align="center">
   <img src="https://github.com/minhanhvu/portfolio-optimization/assets/87383756/0a46de22-8eb4-43d4-87c2-409155df6492" alt="Description of the GIF">
 </p>
