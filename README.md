@@ -1,5 +1,5 @@
 ### 📝 NOTE:
-Here you'll find the summary of my projects. For in-depth analysis/discussion, please visit my [Gitbook](https://minh-anh-vu.gitbook.io/anh-vus-datacracy-hub/~/changes/K52oJexU6PiKPB9bRTo5/optimization-time-series-analysis-and-portfolio-optimization)
+Here you'll find the summary of my projects. For in-depth analysis/discussion, please visit my [Gitbook](https://minh-anh-vu.gitbook.io/anh-vus-datacracy-hub/optimization-time-series-analysis-and-portfolio-optimization)
 
 ### 🍉Summary
 This project aims to find a portfolio structure that yields the highest profit given a specific level of risk tolerance of the investor. If you're interested in technical knowledge in investment, this project will show you how to:
